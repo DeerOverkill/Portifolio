@@ -275,6 +275,25 @@ main {
     z-index: 2;
 }
 
+/* New placeholder card for profile photo */
+.avatar-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-card);
+    position: relative;
+    z-index: 1;
+}
+
+.placeholder-icon {
+    font-size: 3rem;
+    color: var(--accent-cyan);
+}
+
 @keyframes rotateRing {
     100% { transform: rotate(360deg); }
 }
